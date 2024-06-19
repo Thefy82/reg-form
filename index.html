@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h2>Sign up</h2>
+            <form id="signUpForm">
+                <div class="form-group">
+                    <label for="username"><i class="fas fa-user"></i></label>
+                    <input type="text" id="username" name="username" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i></label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password"><i class="fas fa-lock"></i></label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password"><i class="fas fa-lock"></i></label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Repeat your password" required>
+                </div>
+                <div class="form-group terms">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree all statements in <a href="#">Terms of service</a></label>
+                </div>
+                <button type="submit">Register</button>
+                <p class="login-link">I am already a member <a href="signin.html">Login</a></p>
+                <div id="message"></div>
+            </form>
+        </div>
+        <div class="image-section">
+            <img src="https://cdn.dribbble.com/users/5042897/screenshots/11779967/media/dff3827fe639c4c1fced7be955a1d37a.jpg?resize=1000x750&vertical=center" alt="Sign up illustration">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.form-section {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 30px;
+    text-align: center;
+    color: #aaa;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.form-group.terms,
+.form-group.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.form-group.terms input[type="checkbox"],
+.form-group.remember-me input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    color: #aaa;
+}
+
+p a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #3498db;
+    font-size: 1.5em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#message {
+    margin-top: 15px;
+    text-align: center;
+    color: red;
+}
+
+.login-link,
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #333;
+}
+.form-group.terms {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0; /* Aligns properly with the rest */
+}
+
+.form-group.terms label {
+    margin-left: 10px;
+}
+
+.form-group.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0; /* Aligns properly with the rest */
+}
+
+.form-group.remember-me label {
+    margin-left: 10px;
+}

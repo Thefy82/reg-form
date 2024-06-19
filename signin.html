@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h2>Sign in</h2>
+            <form id="signInForm">
+                <div class="form-group">
+                    <label for="username"><i class="fas fa-user"></i></label>
+                    <input type="text" id="username" name="username" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="password"><i class="fas fa-lock"></i></label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="form-group remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <button type="submit">Log in</button>
+                <p class="register-link">Create an account <a href="index.html">Sign up</a></p>
+                <p>Or login with</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                </div>
+                <div id="message"></div>
+            </form>
+        </div>
+        <div class="image-section">
+            <img src="https://img.freepik.com/premium-photo/contemporary-art-man-with-laptop-pink-chair-painting_1036975-56885.jpg?w=740" alt="Sign in illustration">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
